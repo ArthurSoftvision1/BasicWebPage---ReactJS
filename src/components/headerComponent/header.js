@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style.css';
+import Logo from './logo';
 import {
     Link
 } from 'react-router-dom'
@@ -9,7 +9,9 @@ class Header extends Component {
     return (
       <header>
         <div className="logo">
-            LOGO
+            <div className="logo-position">
+                <Logo />
+            </div>
         </div>
 
         <nav>
@@ -23,7 +25,6 @@ class Header extends Component {
                 <li className="last"> 
                     <Link to="/Contacts">Contact</Link>
                 </li>
-                
             </ul>
         </nav>
       </header>
