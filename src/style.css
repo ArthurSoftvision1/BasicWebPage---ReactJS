@@ -9,7 +9,7 @@ header {
 
 .logo {
     position: absolute;
-    /* top: 30%; */
+    top: 30%;
     left: 15px;
 }
 
@@ -29,7 +29,6 @@ nav ul li {
 ul li {
     list-style-type: none;
     display: inline-block;
-    
 }
 
 .last {
@@ -48,4 +47,36 @@ a {
 a:hover {
     text-decoration: none;
     color: red;
+}
+
+.footer-section {
+    background: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.footer-options {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-links {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.logo-position {
+    width: 300px;
+    text-align: center;
+}
+
+.logo-image {
+    width:50px;
+}
+
+.container {
+    margin-top: 60px;
 }
