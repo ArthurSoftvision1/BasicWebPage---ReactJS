@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Products extends Component {
   render() {
     return (
-    <div className="container-fluid">
+    <div className="container">
         <h1>Products</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
         Aenean commodo ligula eget dolor. Aenean massa. 
