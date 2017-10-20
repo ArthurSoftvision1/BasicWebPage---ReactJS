@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Logo from './logo';
+import Search from './searchInput';
 import {
     Link
 } from 'react-router-dom'
@@ -13,20 +14,24 @@ class Header extends Component {
                 <Logo />
             </div>
         </div>
-
-        <nav>
-            <ul>
-                <li className="first"> 
-                    <Link to="/">Home</Link>
-                </li>
-                <li> 
-                    <Link to="/Products">Products</Link>
-                </li>
-                <li className="last"> 
-                    <Link to="/Contacts">Contact</Link>
-                </li>
-            </ul>
-        </nav>
+        <div>
+            <nav>
+                <ul>
+                    <li className="search-bar">
+                        <Search />
+                    </li>
+                    <li className="first"> 
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li> 
+                        <Link to="/Products">Products</Link>
+                    </li>
+                    <li className="last"> 
+                        <Link to="/Contacts">Contact</Link>
+                    </li>
+                </ul>
+            </nav>
+        </div>
       </header>
     );
   }
