@@ -5,9 +5,11 @@ import ParallaxBlock from '../../components/contentComponent/parallaxBlock';
 class Homepage extends Component {
   render() {
     return (
-    <div className="container">
+    <div>
         <Parallax />
-        <ParallaxBlock />
+        <div className="container">
+          <ParallaxBlock />
+        </div>
     </div>
     );
   }
