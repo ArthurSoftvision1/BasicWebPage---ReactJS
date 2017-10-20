@@ -85,12 +85,11 @@ a:hover {
 
 .search-bar {
     padding-right: 80px;
+    width:280px;
 }
 
 .parallax-block {
-    height:700px;
-    // background-color:@red;
-    // font-size:36px
+    height:1100px;;
 }
 
 .parallax {
@@ -106,3 +105,67 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#username-input,
+#password-input,
+#myInput[type=text] {
+    width: 220px;
+    box-sizing: border-box;
+    border: 2px solid @ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: @white;
+    background-image: url('./searchicon.png');
+    background-position: 10px 2px; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 40px;
+    cursor: pointer;
+}
+
+#myInput:focus {
+    border : 2px solid @greenButtons;
+    -webkit-transition:  border 3s ease;
+    -moz-transition:  border 3s ease;
+    -o-transition:  border 3s ease;
+    -ms-transition: border 3s ease;
+    transition: border 3s ease; 
+}
+
+.register-button {
+    padding: 10px 20px;
+    background-color: @greenButtons;
+    margin-right: 10px;
+    border: 1px solid @greenButtons;
+    color: @white;
+    border-radius: 3px;
+}
+
+.register-button:hover {
+    padding: 10px 20px;
+    background-color: @greenButtons;
+    border: 1px solid @greenButtons;
+    color: @white;
+    border-radius: 3px;
+}
+
+.login-button {
+    padding: 10px 20px;
+    background-color: @greenButtons;
+    border: 1px solid @greenButtons;
+    color: @white;
+    border-radius: 3px;
+}
+
+.login-button:hover {
+    padding: 10px 20px;
+    background-color: @greenButtons;
+    border: 1px solid @greenButtons;
+    color: @white;
+    border-radius: 3px;
+}
+
+.register-container {
+    text-align: right;
+    margin-bottom: 30px;
+}
+  
